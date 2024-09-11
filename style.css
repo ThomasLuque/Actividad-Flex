@@ -1,0 +1,32 @@
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: burlywood;
+    margin: 0;
+    height: 100px;
+}
+h1{
+    text-decoration: underline;
+    text-decoration-style:dotted ;
+}
+p{
+    text-shadow: 3px 3px 3px gray;
+}
+.container-article{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+.container-info{
+    max-width: 80%;
+    display: flex;
+    flex-flow: column wrap;
+    align-items:  center;
+    
+}
+img{
+ max-width: 100%;
+}
+
